@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f9f4;
+    color: #333;
+}
+table{
+	margin: auto;
+}
+header {
+    background: linear-gradient(90deg, #2e7d32, #66bb6a);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #388e3c;
+}
+nav a {
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+nav a:hover {
+    background: #2e7d32;
+}
+section {
+    padding: 20px;
+    animation: fadeIn 1.2s ease-in-out;
+}
+footer {
+    text-align: center;
+    background: #2e7d32;
+    color: white;
+    padding: 10px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+h2 {
+    color: #2e7d32;
+}
+.multimedia {
+    text-align: center;
+    margin-top: 20px;
+}
+.multimedia img {
+    width: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform 0.5s;
+}
+.multimedia img:hover {
+    transform: scale(1.05);
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.botones {
+    margin-top: 20px;
+    text-align: center;
+}
+.botones input, .botones a {
+    margin: 5px;
+    padding: 10px;
+    background: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.botones input:hover, .botones a:hover {
+    background: #2e7d32;
+}
